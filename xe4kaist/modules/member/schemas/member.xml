@@ -23,4 +23,12 @@
     <column name="description" type="text" />
     <column name="extra_vars" type="text" />
     <column name="list_order" type="number" size="11" notnull="notnull" index="idx_list_order" />
+    <!--// inserted for external module 'portal' -->
+    <column name="student_id" notnull="notnull" size="8" type="number"/>
+    <column name="gender" notnull="notnull" size="2" type="varchar"/>
+    <column name="department" notnull="notnull" size="25" type="varchar"/>
+    <column name="degree" notnull="notnull" size="10" type="varchar"/>
+    <column name="cellphone" notnull="notnull" size="25" type="varchar"/>
+    <column name="is_student" notnull="notnull" size="1" type="number"/>
+    <!--// inserted for external module 'portal' -->
 </table>

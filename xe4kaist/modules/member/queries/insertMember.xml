@@ -27,5 +27,13 @@
         <column name="description" var="description" />
         <column name="extra_vars" var="extra_vars" />
         <column name="list_order" var="list_order" />
+        <!--// inserted for external module 'portal' -->
+        <column name="student_id" var="student_id"/>
+        <column name="gender" var="gender"/>
+        <column name="department" var="department"/>
+        <column name="degree" var="degree"/>
+        <column name="cellphone" var="cellphone"/>
+        <column name="is_student" var="is_student"/>
+        <!--// inserted for external module 'portal' -->
     </columns>
 </query>
